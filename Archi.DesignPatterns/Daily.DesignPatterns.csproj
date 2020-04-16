@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Behavioral\Mediator\" />
     <Folder Include="Behavioral\Visitor\" />
     <Folder Include="Behavioral\Strategy\" />
     <Folder Include="Behavioral\State\" />

@@ -1,4 +1,5 @@
 ﻿using Daily.DesignPatterns.Behavioral.Command;
+using Daily.DesignPatterns.Behavioral.Mediator;
 using System;
 using static System.Console;
 
@@ -62,7 +63,7 @@ namespace Daily.DesignPatterns
                     ExecutionCommand.Execute();
                     break;
                 case '8':
-                   
+                    MediatorExecutor.Execute();
                     break;
                 case '9':
                    
