@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Behavioral\Mediator\" />
+    <Folder Include="Behavioral\Visitor\" />
+    <Folder Include="Behavioral\Strategy\" />
+    <Folder Include="Behavioral\State\" />
+    <Folder Include="Behavioral\Observer\" />
+  </ItemGroup>
+
+</Project>
