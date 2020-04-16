@@ -11,6 +11,17 @@
     <Folder Include="Behavioral\Strategy\" />
     <Folder Include="Behavioral\State\" />
     <Folder Include="Behavioral\Observer\" />
+    <Folder Include="Creational\Abstract Factory\" />
+    <Folder Include="Creational\Builder\" />
+    <Folder Include="Creational\Factory Method\" />
+    <Folder Include="Creational\Singleton\" />
+    <Folder Include="Creational\Prototype\" />
+    <Folder Include="Structural\Adapter\" />
+    <Folder Include="Structural\Bridge\" />
+    <Folder Include="Structural\Composite\" />
+    <Folder Include="Structural\Facade\" />
+    <Folder Include="Structural\Flyweight\" />
+    <Folder Include="Structural\Proxy\" />
   </ItemGroup>
 
 </Project>
