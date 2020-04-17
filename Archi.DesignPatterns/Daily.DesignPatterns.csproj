@@ -12,7 +12,8 @@
     <Folder Include="Creational\Abstract Factory\" />
     <Folder Include="Creational\Builder\" />
     <Folder Include="Creational\Factory Method\" />
-    <Folder Include="Creational\Prototype\" />
+    <Folder Include="Creational\Singleton\DependencyInjection\" />
+    <Folder Include="Creational\Singleton\Lazy\" />
     <Folder Include="Structural\Adapter\" />
     <Folder Include="Structural\Bridge\" />
     <Folder Include="Structural\Composite\" />

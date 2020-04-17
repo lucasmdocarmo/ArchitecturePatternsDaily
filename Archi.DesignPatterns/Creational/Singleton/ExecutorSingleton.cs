@@ -9,8 +9,8 @@ namespace Daily.DesignPatterns.Creational.Singleton
     {
         public static void Execute()
         {
-            WriteLine("Repetion of 3 being initialized");
-            for (int i = 0; i <= 2; i++)
+            WriteLine("Repetion of 2 being initialized");
+            for (int i = 0; i < 2; i++)
             {
                 WriteLine("\n Repetion number: " + i);
 
