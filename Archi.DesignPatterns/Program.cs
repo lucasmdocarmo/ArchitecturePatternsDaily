@@ -12,6 +12,10 @@ namespace Daily.DesignPatterns
         static void Main()
         {
             WriteLine("Choose:");
+            WriteLine("1 - Creational Patterns");
+            WriteLine("2 - Structural Patterns");
+            WriteLine("3 - Behavioral Patterns");
+
             WriteLine("------------------------");
             WriteLine("Creational Patterns");
             WriteLine("------------------------");
@@ -51,7 +55,7 @@ namespace Daily.DesignPatterns
                 
                     break;
                 case "2":
-                   
+                  
                     break;
                 case "3":
                     ExecutorSingleton.Execute();
@@ -90,5 +94,22 @@ namespace Daily.DesignPatterns
             Clear();
             Main();
         }
+       
     }
+    public static class CreationalPatterns
+    {
+        
+    }
+    public static class BehaivioralPatterns
+    {
+
+    }
+
+    public static class StructuralPatterns
+    {
+
+    }
+
+
+
 }

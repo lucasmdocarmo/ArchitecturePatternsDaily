@@ -14,22 +14,23 @@ namespace Daily.DesignPatterns.Creational.Singleton
             {
                 WriteLine("\n Repetion number: " + i);
 
-                Console.WriteLine("Trying to create instance s1.");
+                WriteLine("Trying to create instance s1.");
                 Singleton s1 = Singleton.NewInstance;
-                Console.WriteLine("Trying to create instance s2.");
+                WriteLine("Trying to create instance s2.");
                 Singleton s2 = Singleton.NewInstance;
 
                 if (s1 == s2)
                 {
-                    Console.WriteLine("Only one instance exists.");
+                    WriteLine("Only one instance exists.");
                 }
                 else
                 {
-                    Console.WriteLine("Different instances exist.");
+                    WriteLine("Different instances exist.");
                 }
             }
            
-            Console.Read();
+            Read();
+        
         }
     }
 }
