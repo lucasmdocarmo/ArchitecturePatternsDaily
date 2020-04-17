@@ -1,5 +1,6 @@
 ﻿using Daily.DesignPatterns.Behavioral.Command;
 using Daily.DesignPatterns.Behavioral.Mediator;
+using Daily.DesignPatterns.Behavioral.Observer;
 using System;
 using static System.Console;
 
@@ -33,39 +34,49 @@ namespace Daily.DesignPatterns
             WriteLine("12 - Visitor");
             WriteLine("------------------------");
 
-            var option = ReadKey();
+            var option = Convert.ToString(ReadLine());
 
             WriteLine("");
             WriteLine("------------------------");
             WriteLine("");
 
-            switch (option.KeyChar)
+            switch (option)
             {
-                case '1':
+                case "1":
                 
                     break;
-                case '2':
+                case "2":
                    
                     break;
-                case '3':
+                case "3":
                    
                     break;
-                case '4':
+                case "4":
                    
                     break;
-                case '5':
+                case "5":
                    
                     break;
-                case '6':
+                case "6":
                  
                     break;
-                case '7':
+                case "7":
                     ExecutionCommand.Execute();
                     break;
-                case '8':
+                case "8":
                     MediatorExecutor.Execute();
                     break;
-                case '9':
+                case "9":
+                    ExecuteObserver.Execute();
+                    break;
+
+                case "10":
+                
+                    break;
+                case "11":
+                   
+                    break;
+                case "12":
                    
                     break;
             }
