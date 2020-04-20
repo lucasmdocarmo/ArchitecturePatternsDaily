@@ -8,7 +8,6 @@
   <ItemGroup>
     <Folder Include="Behavioral\Visitor\" />
     <Folder Include="Behavioral\Strategy\" />
-    <Folder Include="Behavioral\State\" />
     <Folder Include="Creational\Abstract Factory\" />
     <Folder Include="Creational\Builder\" />
     <Folder Include="Creational\Factory Method\" />

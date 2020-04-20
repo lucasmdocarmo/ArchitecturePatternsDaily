@@ -1,6 +1,7 @@
 ﻿using Daily.DesignPatterns.Behavioral.Command;
 using Daily.DesignPatterns.Behavioral.Mediator;
 using Daily.DesignPatterns.Behavioral.Observer;
+using Daily.DesignPatterns.Behavioral.State;
 using Daily.DesignPatterns.Creational.Prototype;
 using Daily.DesignPatterns.Creational.Singleton;
 using System;
@@ -145,7 +146,7 @@ namespace Daily.DesignPatterns
                     ExecuteObserver.Execute();
                     break;
                 case "4":
-
+                    ExecuteState.Execute();
                     break;
                 case "5":
 
