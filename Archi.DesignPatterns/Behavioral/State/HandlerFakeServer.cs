@@ -21,7 +21,7 @@ namespace Daily.DesignPatterns.Behavioral.State
             WriteLine("You have Iniciated the server.");
             return server;
         }
-
+         
         public FakeServerStats Stalled(FakeServerStats stat)
         {
             if (stat.IsRunning)
