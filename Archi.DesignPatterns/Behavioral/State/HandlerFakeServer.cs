@@ -37,7 +37,7 @@ namespace Daily.DesignPatterns.Behavioral.State
                 WriteLine("You tried to Stall the server, but the status is: {0}. You must Iniciate again", server.Stats);
                 return server;
             }
-
+             
         }
 
         public FakeServerStats Stopped(FakeServerStats stat)

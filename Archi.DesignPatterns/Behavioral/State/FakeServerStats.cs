@@ -14,7 +14,7 @@ namespace Daily.DesignPatterns.Behavioral.State
             ChangeStatus(Stats);
 
         }
-
+         
         public string Name { get; set; }
         public string Stats { get; set; }
         public bool IsRunning { get; set; }

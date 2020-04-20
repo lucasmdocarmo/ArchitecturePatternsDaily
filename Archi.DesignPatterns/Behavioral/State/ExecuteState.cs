@@ -9,7 +9,7 @@ namespace Daily.DesignPatterns.Behavioral.State
 
         static FakeServerStats FakeServerStats = new FakeServerStats("Test", true);
         public static void Execute()
-        {
+        { 
             HandlerFakeServer handler = new HandlerFakeServer();
 
             handler.Running(FakeServerStats);

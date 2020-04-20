@@ -12,3 +12,4 @@ namespace Daily.DesignPatterns.Behavioral.State
         T Stopped(T stat);
     }
 }
+ 
