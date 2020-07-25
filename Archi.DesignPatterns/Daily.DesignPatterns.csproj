@@ -8,12 +8,10 @@
   <ItemGroup>
     <Folder Include="Behavioral\Visitor\" />
     <Folder Include="Behavioral\Strategy\" />
-    <Folder Include="Creational\Abstract Factory\" />
     <Folder Include="Creational\Builder\" />
     <Folder Include="Creational\Factory Method\" />
     <Folder Include="Creational\Singleton\DependencyInjection\" />
     <Folder Include="Creational\Singleton\Lazy\" />
-    <Folder Include="Structural\Adapter\" />
     <Folder Include="Structural\Bridge\" />
     <Folder Include="Structural\Composite\" />
     <Folder Include="Structural\Facade\" />

@@ -4,6 +4,7 @@ using Daily.DesignPatterns.Behavioral.Observer;
 using Daily.DesignPatterns.Behavioral.State;
 using Daily.DesignPatterns.Creational.Prototype;
 using Daily.DesignPatterns.Creational.Singleton;
+using Daily.DesignPatterns.Structural.Adapter;
 using System;
 using static System.Console;
 
@@ -95,7 +96,7 @@ namespace Daily.DesignPatterns
             switch (option)
             {
                 case "1":
-
+                    ExecutionAdapter.Execute();
                     break;
                 case "2":
 
